@@ -1,9 +1,11 @@
 site teste: https://github.com/vilelabh/picsize-teste-web-developer
 
 //todo
+todo 
 
 
-[ ]Criar rota que buscar User
+
+    [ ]Criar rota que buscar User
     [ ]Consumir API github usando node https://api.github.com/search/users?q=user:feeluiz&repos:>0
         [X] criar Controller de busca por nome e/ou quantidade e repositorios
         [ ] ordenar por quem tem mais repositorios
