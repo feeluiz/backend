@@ -15,16 +15,3 @@ todo
             [X] mostrar informações como nome,foto, dentre outras
             [X] listar todos os links de repositorios do user
         [] CSS
-
-
-O que deve ser entregue:
-
-    [ ] Link para acessar a aplicação funcionando;
-    [ ] Link do repositório no GitHub;
-    [ ] Quantas horas levou para fazer o teste completo.
-
-O que será avaliado:
-
-    [ ] Qualidade do código;
-    [ ] Qual o tempo de execução (a nossa expectativa é de um total de 4 horas);
-    [ ] HTML, CSS e Javascript serão avaliados como diferenciais.
