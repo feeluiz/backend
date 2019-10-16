@@ -9,6 +9,12 @@ server.use(function(req, res, next) {
   next();
 });
 server.use(express.json())
-server.use(routers)
+
+server.get("/" , (req,res)=> res.json({'message':'Bem Vindo'}))
+            
+server.post("/users" , usersController.search)
+server.post("/details" , detailsController.getDetails)
+
+
 
 server.listen(8080, () =>{console.log("server em execução.")})
