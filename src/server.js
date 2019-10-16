@@ -11,4 +11,4 @@ server.use(function(req, res, next) {
 server.use(express.json())
 server.use(routers)
 
-server.listen(3333, () =>{console.log("server em execução.")})
+server.listen(8080, () =>{console.log("server em execução.")})
