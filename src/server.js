@@ -19,4 +19,4 @@ server.post("/details" , detailsController.getDetails)
 
 
 
-server.listen(8080, () =>{console.log("server em execução.")})
+server.listen(3333, () =>{console.log("server em execução.")})
