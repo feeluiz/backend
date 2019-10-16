@@ -2,7 +2,7 @@
   "name": "picsize-web",
   "version": "1.0.0",
   "description": "test-app",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "test",
     "start": "node src/server.js"
