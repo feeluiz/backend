@@ -1,8 +1,8 @@
-const { Routes } = require("express")
+const { Router } = require("express")
 const usersController = require("./controllers/usersController")
 const detailsController = require("./controllers/detailsController")
 
-var routes = Routes
+var routes = Router
 
 routes.get("/" , (req,res)=> res.json({'message':'Bem Vindo'}))
             
