@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const express = require("express")
 const usersController = require("./controllers/usersController")
 const detailsController = require("./controllers/detailsController")
@@ -16,4 +18,4 @@ server.post("/details" , detailsController.getDetails)
 
 
 
-server.listen(3333, () =>{console.log("server em execução.")})
+server.listen(process.env.PORT || 3000)
