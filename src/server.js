@@ -1,4 +1,6 @@
 const express = require("express")
+const usersController = require("./controllers/usersController")
+const detailsController = require("./controllers/detailsController")
 //const routers = require('./routes')
 
 const server = express()
